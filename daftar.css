@@ -1,0 +1,123 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: url('Group 49.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+}
+
+h1 {
+    margin: 20px 0 11px 0;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: #565656;
+}
+
+.login {
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    border-radius: 10px;
+    padding: 11px 40px;
+    margin: 5px 0 0 431px;
+    display: inline-block;
+    background-color: white;
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.input p {
+    margin-bottom: 0;
+}
+
+.input input {
+    background-color: rgba(234, 234, 234, 1);
+    border: none;
+    border-radius: 8px;
+    margin: 7px 0;
+    padding: 12px 9px;
+    width: 349px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.input input:focus {
+    outline: none;
+}
+
+.submit {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+.submit input {
+    font-size: 16px;
+    background-color: #ED473E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 149px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.text {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.text p {
+    font-size: 14px;
+}
+
+.sosmed img {
+    width: 28px;
+    height: 17px;
+}
+
+.sosmed {
+    
+    margin: 10px 0 0 0px;
+}
+
+.sosmed li {
+    list-style: none;
+    float: left;
+    margin: 28px 15px;
+}
+
+.daftar {
+    margin: 40px 0 0 0;
+    text-align: center;
+}
+
+.daftar a {
+    color: #ED473E;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .container{
+    padding-top:50px;
+    margin: auto;
+  }
+
+  form i {
+    margin-left: -30px;
+    cursor: pointer;
+}

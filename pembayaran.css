@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+.header ul {
+  margin-right: 50px;
+}
+
+.header li {
+  list-style: none;
+  float: right;
+  margin: 28px 15px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+.place .login img {
+  width: 45px;
+  height: 45px;
+  margin-top: -7px;
+}
+
+.place .logo {
+  margin: 13px 0 10px 30px;
+}
+
+.header a {
+  font-size: 16px;
+  color: #565656;
+}
+.header {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  height: 80px;
+}
+
+.place {
+  width: 50%;
+  float: left;
+}
+
+.place img {
+  width: 187.46px;
+  height: 46.91px;
+}
+
+.pembayaran {
+  width: 100%;
+  display: inline-block;
+}
+
+.pembayaran-main {
+  width: 50%;
+  border: 1px solid #c5c5c5;
+  border-radius: 9px;
+  margin: 130px auto 0;
+}
+
+.title1 {
+  font-weight: bolder;
+  margin: 10px 20px;
+  font-size: 18px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  padding: 0 5px;
+  border: 0.1px solid #c5c5c5;
+}
+
+.pembayaran-item img {
+  float: right;
+  margin-right: -50px;
+}
+
+.modal-button {
+  float: right;
+  font-weight: bold;
+  color: #ed473e;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  margin-right: -50px;
+}
+
+.pembayaran-list {
+  margin: 30px 20px;
+}
+
+.pembayaran-list h5 {
+  margin-top: -15px;
+  font-weight: bolder;
+}
+
+.pembayaran-item {
+  width: 45%;
+  display: inline-block;
+}
+
+.total h5 {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.rincian {
+  margin: 10px 0 0 20px;
+}
+
+.rincian-item {
+  width: 47%;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.rincian-item p {
+  margin: 0;
+}
+
+.rincian-item .harga {
+  float: right;
+}
+
+.line-modal {
+  margin: 15px 20px;
+  width: 93%;
+  height: 3px;
+  background-color: black;
+}
+
+.detail-item {
+  width: 48%;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.totaldetail {
+  margin: 10px 0 10px 20px;
+}
+
+.detail-item .title {
+  float: left;
+  font-size: 18px;
+}
+
+.detail-item .hargabarang {
+  float: right;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.modal-content {
+  border-radius: 15px;
+}
+
+.tombol {
+  width: 100%;
+  margin: 40px 24%;
+}
+
+.tombol-item {
+  display: inline-block;
+  margin: 0 18px;
+  text-align: center;
+}
+
+.back {
+  border: 1px solid #48e710;
+  color: #48e710;
+  padding: 10px 115px;
+  border-radius: 10px;
+}
+
+.confirm {
+  background-color: #48e710;
+  color: white;
+  padding: 10px 60px;
+  border-radius: 10px;
+}
+
+.back:hover {
+  color: #48e710;
+}
+
+.confirm:hover {
+  color: white;
+}

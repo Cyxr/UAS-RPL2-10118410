@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header ul {
+    margin-right: 50px;
+}
+
+.header li {
+    list-style: none;
+    float: right;
+    margin: 28px 15px;
+    font-weight: bold;
+    
+}
+
+a {
+    
+    text-decoration: none;
+}
+
+.header .login {
+    padding: 10px 18px;
+    color: white;
+    border-radius: 5px;
+}
+
+.header a {
+    font-size: 16px;
+    color: #565656;
+}
+
+
+.header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+}
+
+.place {
+    width: 50%;
+    float: left;
+}
+
+.place img {
+    width: 187.46px;
+    height: 46.91px;
+    margin: 13px 0 10px 30px;
+}
+
+.product-detail {
+    width: 100%;
+    display: inline-block;
+}
+
+.detail {
+    width: 30%;
+    margin: 150px 0 150px 33px;
+    float: left;
+}
+
+.gambarutama {
+    background-color: #C4C4C4;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 30px 30px;
+    margin: 0 0 0 10px;
+}
+
+.gambarutama img {
+    width: 300px;
+    height: 200px;
+}
+
+.gambar2 {
+    width: 100%;
+    margin: 10px 0 10px 55px;
+}
+
+.contoh {
+    width: fit-content;
+    padding: 5px 5px;
+    float: left;
+    background-color: C4C4C4;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+
+.contoh img {
+    width: 90px;
+    height: 60px;
+    
+}
+
+.namabarang {
+    font-weight: bold;
+}
+
+.price {
+    margin: 50px 0 0 0;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.spesifikasi {
+    font-weight: bold;
+}
+
+.line {
+    padding: 3px 3px;
+    background-color: black;
+    width: 100%;
+    margin: 20px 0;
+}
+
+table {
+    margin: 60px 0;
+}
+
+td {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.btn-secondary {
+    opacity: 4;
+}
+
+.box {
+    width: fit-content;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.dropdown {
+    position: static  ;
+}
+
+.btn {
+    background-color: #F3F3F3;
+    width: 250px;
+    text-align: left;
+}
+
+.dropdown-toggle {
+    float: right;
+    margin: 10px 5px 0 0;
+}
+
+.color {
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    width: 300px;
+}
+
+.subtotal-item {
+    display: inline-flex;
+}
+
+.subtotal-item p {
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.harga {
+    font-weight: bold;
+    margin-left: 80px;
+    margin-right: 0;
+}
+
+.line-subtotal {
+    padding: 2px;
+    background-color: black;
+    width: 250px;
+    margin-top: -10px;
+}
+
+.buttonbuy {
+    margin: 18px 0 0 0;
+}
+
+.buttonbuy-item {
+    display: inline;
+}
+
+.buy1 {
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 10px 41px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(237, 71, 62, 1);
+}
+
+.buy2 {
+    font-weight: bold;
+    padding: 7px 41px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(72, 230, 16, 1);
+    background-color: rgba(72, 230, 16, 1);;
+    color: white;
+    width: 100%;
+    margin:  0 0 0 1px;
+}
+
+.modal-footer {
+    display: inline;
+    text-align: center;
+}
+
+.modal-body-item {
+    display: inline-flex;
+    width: 100%;
+    margin: 10 0px;
+    background-color: #E5E5E5;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+.bca {
+    margin: 10px 0 0 10px;
+    width: 73px;
+    height: 25px;
+}
+
+.mandiri {
+    margin: -8px 0 0 10px;
+    width: 75px;
+    height: 45px;
+}
+
+.modal-body-item p {
+    margin: 10px 0 10px 40px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.radio {
+    width: 100%;
+}
+
+.form-check-input {
+    float: right;
+    margin: 10px 15px 0 0;
+    width: 25px;
+    height: 25px;
+}
+
+.total h5 {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.rincian {
+    margin: 10px 0 0 20px;
+}
+
+.rincian-item {
+    width: 47%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.rincian-item p {
+    margin: 0;
+}
+
+.rincian-item .harga {
+    float: right;
+}
+
+.line-modal {
+    margin: 15px 20px;
+    width: 93%;
+    height: 3px;
+    background-color: black;
+}
+
+.detail-item {
+    width: 48%;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.totaldetail {
+    margin: 10px 0 10px 20px;
+    display: inline-block;
+}
+
+.detail-item .title {
+    float: left;
+    font-size: 18px;
+}
+
+.detail-item .hargabarang {
+    float: right;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.modal-content {
+    border-radius: 15px;
+}
